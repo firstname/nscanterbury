@@ -57,6 +57,7 @@ body {
 /*-- Top-Bar --*/
 section.top-bar {
 	background-color:#3b5998;
+	height:80px;
 	z-index:9;
 	position:relative;
 } 
@@ -199,7 +200,7 @@ section.top-bar ul.social-icons1 li a i.fa.fa-google-plus:hover {
 }
 .navbar-wrapper {
   /*position: absolute;*/
-  top: 80;
+  top: 80px;
   right: 0;
   left: 0;
   z-index: 20;
