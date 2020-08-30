@@ -290,6 +290,14 @@ section.top-bar ul.social-icons1 li a i.fa.fa-google-plus:hover {
   left: 0;
   width: 100%;
 }
+.carousel-text {
+  width: 80%;
+  position: relative; /*脱离文档流*/
+  left:20%;
+  top: 40%; /*偏移*/
+  color: #fff;
+  font-weight: 800;
+}
 /*-- /Banner Section --*/
 /* RESPONSIVE CSS
 -------------------------------------------------- */
