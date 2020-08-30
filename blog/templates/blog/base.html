@@ -493,20 +493,20 @@
 <a href="#0" class="cd-top">Top</a>
 <!-- /Back To Top -->
 <!-- js files -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/SmoothScroll.min.js"></script>
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/SmoothScroll.min.js' %}"></script>
 <!-- js files for gallery -->
-<script src="js/chromagallery.pkgd.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() 
-		{
-		    $(".mygallery").chromaGallery();
-		});
-	</script>
-<!-- /js files for gallery -->	
+<script src="{% static 'js/chromagallery.pkgd.min.js' %}"></script>
+  <script type="text/javascript">
+    $(document).ready(function() 
+    {
+        $(".mygallery").chromaGallery();
+    });
+  </script>
+<!-- /js files for gallery -->  
 <!-- Back To Top -->
-<script src="js/backtotop.js"></script>
+<script src="{% static 'js/backtotop.js' %}"></script>
 <!-- /Back To Top -->
 <script>
 $(document).ready(function(){
@@ -541,5 +541,6 @@ $(window).scroll(function() {
 });
 </script>
 <!-- /js files -->
+
 </body>
 </html>
