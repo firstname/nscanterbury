@@ -198,8 +198,8 @@ section.top-bar ul.social-icons1 li a i.fa.fa-google-plus:hover {
 	margin-bottom:0;
 }
 .navbar-wrapper {
-  /*position: absolute;
-  top: 0;*/
+  /*position: absolute;*/
+  top: 80;
   right: 0;
   left: 0;
   z-index: 20;
