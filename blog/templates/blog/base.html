@@ -43,20 +43,23 @@
 
 </head>
 <body id="index.html" data-spy="scroll" data-target=".navbar" data-offset="60">
+<!-- Top Bar -->
 <section class="top-bar">
-  
-    <!-- navigation -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <a href="#index.html" class="logo"><h1>Neighbourhood Support Canterbury</h1></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Top Bar -->
+<!-- Navigation Bar -->
+<div class="navbar-wrapper">
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
-        <div class="container">
-          <!-- logo -->
-          <h1>
-            <a class="navbar-brand font-weight-bold" href="#navbar">
-              <!-- <img src="{% static 'images/logo.png' %}" alt="" class="img-fluid"> --> Neighbourhood Support Canterbury
-            </a>
-          </h1>
-          <!-- //logo -->
-          <div class="navbar-header">
+    <nav class="navbar navbar-inverse navbar-static-top cl-effect-21">
+      <div class="container">
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -64,8 +67,7 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-
-          <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="#about">About us</a></li>
             <li><a href="#services">Events</a></li>
@@ -74,42 +76,23 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-          
-
-
-        </div>
-      </nav>
-    </div>
-    <!-- //navigation -->
-
-
-</section>
-
-
-<!-- Top Bar -->
-<!-- <section class="top-bar">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-        <a href="#index.html" class="logo">
-        <img src="{% static 'images/logo.png' %}" alt="NSC"  height="80" width="355" >
-<h1>Neighbourhood Support Canterbury</h1>
-        </a>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-      </div>
-
+        </nav>
     </div>
-  </div>
-</section> -->
-<!-- /Top Bar -->
-
+</div>
+<!-- /Navigation Bar -->
 
 <!-- Navigation Bar -->
 <!-- <div class="navbar-wrapper">
-    <div class="container">
+
+<div class="container">
     <nav class="navbar navbar-inverse navbar-static-top cl-effect-21">
       <div class="container">
+      <h1>
+            <a href="#index.html" class="logo">
+               Neighbourhood Support Canterbury
+            </a>
+          </h1>
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -137,6 +120,52 @@
     ================================================== -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+      <img class="first-slide" src="{% static 'images/banner1.jpg' %}" alt="First slide">
+      <div class="container">
+        <div class="carousel-caption">
+              
+        </div>
+      </div>
+        </div>
+        <div class="item">
+      <img class="second-slide" src="{% static 'images/banner2.jpg' %}" alt="Second slide">
+      <div class="container">
+        <div class="carousel-caption">
+              
+        </div>
+      </div>
+        </div>
+        <div class="item">
+      <img class="third-slide" src="{% static 'images/banner3.jpg' %}" alt="Third slide">
+      <div class="container">
+        <div class="carousel-caption">
+              
+        </div>
+      </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div><!-- /.carousel -->
+<!-- /Banner Section -->
+<!-- Banner Section -->
+ <!-- Carousel
+    ================================================== -->
+<!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -173,10 +202,10 @@
     <div class="carousel-text">
           <h1 >Join us</h1> 
           <h3 ><a href="#curriculum">Meet friends here</a></h3>
-          <!--<p ><span>We will make it a part of the history.</span>
-          </p> -->
+          <p ><span>We will make it a part of the history.</span>
+          </p>
     </div>
-      <!-- <img class="third-slide" src="{% static 'images/banner3.jpg' %}" alt="Third slide"> -->
+      <img class="third-slide" src="{% static 'images/banner3.jpg' %}" alt="Third slide">
       <div class="container">
         <div class="carousel-caption">
               
@@ -192,8 +221,8 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-</div><!-- /.carousel -->
-<!-- /Banner Section -->
+</div>/.carousel
+/Banner Section -->
 
 
 
