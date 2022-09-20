@@ -1,1 +1,1 @@
-# nzcisc
+# neighbourhood support canterbury
